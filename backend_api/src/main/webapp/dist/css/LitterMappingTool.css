@@ -1,0 +1,113 @@
+
+.manage-icon {
+	padding: 3px 7px 3px 7px;
+	float: left;
+}
+
+.manage-no-data {
+	padding-left: 10px;
+}
+
+.manage-new-entity {
+	padding: 5px 5px 0px 0px;
+}
+
+.manage-form {
+	float: left;
+}
+
+.info_content_left {
+	float: left;
+	padding: 3px;
+	min-height: 151px;
+	margin: 6px 3px 0px 0px;
+}
+
+.info_content_right {
+	float: left;
+	background-image: url("/img/no_pict.png");
+	width: 151px;
+	height: 151px;
+	padding: 3px;
+	margin-top: 6px;
+}
+
+/* Pre-loader */
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff;
+    z-index:99;
+}
+
+#status {
+    width:200px;
+    height:200px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    background-image:url(/img/spinner.gif);
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-100px 0 0 -100px;
+}
+
+/* Info messages */
+#easyNotification { padding: 7px 10px; background:#FFFFFF; border:2px solid #56AED4; color:#333; position:absolute; left: 50%; max-width: 400px; z-index: 9999; }
+#easyNotification .img_wrapper { padding: 0px 10px 0px 2px; float: left; }
+#easyNotification .text_wrapper { padding: 7px 10px 0px 2px; float: left; }
+#easyNotification .close { cursor:pointer; padding: 7px 10px; font-weight: bold; color: grey; float: left; }
+#text_desc { cursor:pointer; color: orange; }
+.text_desc { cursor:help; color: orange; }
+
+/* Dialogs */
+.ui-dialog { overflow: hidden; position: fixed; top: 0; left: 0; padding: .2em; outline: 0; background-color: #FFFFFF; border: 1px solid #4D4D4D; box-shadow: 0 0 0 7px rgba(0,0,0,0.1); z-index: 10000; }
+.ui-dialog .ui-dialog-titlebar { padding: .4em 1em; position: relative; font-weight: bold; height: 33px; border-bottom: 1px solid #CCCCCC; }
+.ui-dialog .ui-dialog-title { float: left; margin: 0px; white-space: nowrap; width: 90%; overflow: hidden; text-overflow: ellipsis; }
+.ui-dialog .ui-dialog-titlebar-close { visibility: hidden; }
+.ui-dialog .ui-dialog-content { position: relative; border: 0; padding: .5em 1em; background: none; overflow: hidden; color: #666; }
+.ui-dialog .ui-dialog-buttonpane { text-align: left; border-width: 1px 0 0 0; background-image: none; padding: .3em 1em .5em .4em; }
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset { float: right; }
+.ui-dialog .ui-dialog-buttonpane button { margin: 2px; cursor: pointer; font-size: 0.9em; padding: 6px 15px 5px; }
+.ui-dialog .ui-resizable-se { width: 12px; height: 12px; right: -5px; bottom: -5px; background-position: 16px 16px; }
+.dialog-row { width: 100%; padding: 3px; }
+.event-dialog-table { width: 100%; }
+.event-dialog-td-name { width: 110px; padding: 2px 4px 2px 4px; }
+.event-dialog-td-value { padding: 2px 4px 2px 4px; }
+
+#location-select-validation-error { color: red; }
+#event-location { cursor: pointer; }
+
+/* Spacers */
+.horizontal_space_5 { height: 5px; width: 100%; }
+
+/* Colors */
+.red-color { color: #dd4b39; }
+.green-color { color: #00a65a; }
+
+/* Bootstrap */
+.first-column { width: 47%; float: left; }
+.second-column { width: 47%; float: right; }
+
+/* Data management */
+.clear-added-items { float: right; cursor: pointer; }
+.data-mng-list { width: 100%; padding-right: 3px; }
+#operation-ok-searchable, #operation-ok-searchable-upDia { float: right; }
+#operation-ok-category, #operation-ok-category-upDia { float: right; }
+
+/* Map */
+#map-timeline-wrapper { padding: 7px; float: left; width: 290px; border-top: 1px solid #d2d6de; border-right: 1px solid #d2d6de; background-color: #ecf0f5; }
+#map-timeline { overflow-y: scroll; overflow-x: hidden; }
+#map-canvas-events { float: left; }
+#map-info-bar { width: 300px; padding: 2px; float: left; margin-left: 5px; }
+#map-statistic-win { background: #FFF; position: absolute; left: 525px; z-index: 10000; padding: 3px; border: 1px solid #118eae; visibility: hidden; }
+#radius-update, #time-update { width: 105px; float: left; padding-right: 5px; }
+.map-statistic-win-inner { width: 250px; height: 85px; float:left; }
+.map-statistic-win-inner-sm { width: 125px; height: 85px; float:left; }
+.map-stat-row { width: 100%; float: left; }
+.map-button { background: #FFF; position: absolute; left: 525px; z-index: 10000; padding: 3px 6px 3px 6px; border: 1px solid #118eae; visibility: hidden; cursor: pointer; }
+.map-button:HOVER { border: 1px solid blue; }
+

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Litter Mapping Tool</string>
+    <string name="bin_command">bin</string>
+    <string name="type_command">type</string>
+    <string name="brand_command">brand</string>
+    <string name="menu_caption">Say a brand name, \'type\' or \'bin\'"</string>
+    <string name="bin_caption">What kind of bin?</string>
+    <string name="brand_caption">Say a brand name, \'type\' or \'bin\'</string>
+    <string name="type_caption">What type?</string>
+    <string name="confirm_log_litter_type_caption">Log litter type as well?</string>
+    <string name="confirm_log_litter_brand_caption">Log litter brand as well?</string>
+    <string name="yes_no_caption">Did you mean</string>
+    <string name="cell_text">Litter: </string>
+    <string name="new_outing">New Outing</string>
+    <string name="start_listening_button">start listening</string>
+    <string name="list_all_items_title">Listing litter items:</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_list_all_items">List All Items</string>
+    <string name="title_activity_add_new_item">Add New Item</string>
+    <string name="litter_logo">Litter logo</string>
+    <string name="title_activity_main">main activity</string>
+    <string name="gps_enabled_toast">GPS Enabled</string>
+    <string name="gps_disabled_toast">GPS Disabled</string>
+    <string name="start_logging_litter_menu">Start logging litter</string>
+    <string name="litter_log_event_text">Start logging litter as part of an event</string>
+    <string name="title_activity_select_event">Select Event</string>
+</resources>
